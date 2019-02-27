@@ -1,0 +1,19 @@
+#table1 tr:first-child td:first-child {background-color: 
+                                            blue;}
+#table1 tr:first-child td:nth-child(even){background-color:
+                                            blue;}										
+#table1	tr:nth-child(even) td:nth-child(even) {background:
+                                           yellow;}
+												  
+#table1 tr:nth-last-child(odd) td:nth-child(odd){background-color: 
+                                            pink;}											
+#table1 tr:nth-child(odd) {background-color: 
+                                            gray;}
+#table2 tr:nth-child(odd) td:nth-child(even) {background:black;}
+#table3 tr:nth-child(even) td:nth-child(even){background-color: 
+                                            red;}												   
+
+
+
+
+	   
