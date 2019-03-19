@@ -1,195 +1,65 @@
-﻿<html>
+<html>
 <head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 <style>
-    body {
-	      background-color: purple;
-	}
-    #font {
-     border: 2px solid  pink;
-     width: 1140px;
-     height: 1020px; 
-	 background: pink;
-     margin: 0 auto;	 
-	 }
-	#font, #second_blok, #third_blok {
-     border: 5px solid  white;	 
-	 }
-    #first_blok {
-	        width: 1090px;
-	        height: 100px;
-			text-align: center;
-	}
-	#img1 {
-	      float: right;
-	}
-	#navbar {
-            list-style-type: none;
-			padding-left: 0;
-			margin-left: 0;
-			overflow: hidden;
-			margin-left: 2px;
-			margin-right: 4px;
-	}
-	#navbar a {
-	           text-decoration: none;
-			   font-size: 120%;
-			   font-family: sans-serif;
-			   color:purple;
-			   display: inline-block;
-			   padding: 20px 75px;
-			   background-color: light-purple;
-			   border-bottom: 7px solid white;
-	}
-	#navbar li {
-	           display: inline-block;
-               text-align: center;
-			   flex: 1;
-               float: left;
-	}
-	#second_blok, #third_blok {
-	                          display: inline-block;
-							  justify-content: flex-start;
-							  align-self: flex-start;
-				              overflow: hidden;
-				              background-color: grey;
-				              text-align: center;
-	}
-   	#second_blok {	             
-				 margin-left: 41px;
-				 height: 650px; 
-	             width: 700px;
-               				 
-	}
-	#third_blok {   	 
-				 margin-right: 18;                		 
-	             height: 650px; 
-				 width: 331px;	 
-	}
-	table {
-	       margin: auto;
-	       background-color: pink;
-	       border: 1px solid white;
-		   text-align: center;
-	}
-	tr:nth-child(6) {
-	                 background-color: pink;
-	}
-	tr:nth-child(7) {
-	                 background-color: pink;
-	}
-	table tr td {
-	             width: 30px;
-	             border: 1px solid purple;
-	}
-	#fourth_blok {
-	             background-color: white;
-				 margin-top: 20px;
-				 margin-left: 7px;
-				 margin-right: 7px;
-                 height: 90px;	
-                 text-align: left;				 
-	}
-		    
+#img1 {	
+    width: 50px;
+	height: 45px;
+	margin-left: 20px;
+  }
+.nav navbar-nav navbar-right, li { margin-right: 25px;
+}
+  		    
 </style>
 </head>
 <body>
-   <div id="font">
-      <div id="first_blok">
-	  	<h1> Homework<img  id="img1" src="https://st.violity.com/auction/preview/auctions/66/44/60/66446004.jpg" /></h1>
-	  </div>
-      <div id="navbar">
-	  <center>
-       <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Get started</a></li>
-          <li><a href="#">Photos</a></li>
-          <li><a href="#">Gear</a></li>
-          <li><a href="#">Forum</a></li>
-        </ul>
-	  </center>
-     </div>
-	<div id="second_blok">
-	      <h1>YOGA CLASSES</h1><br>
-		  <p align="justify"> We are freelance yoga teachers  working together, committed to providing accessible and high-quality yoga classes in several yoga styles, with a focus on community wellbeing and inclusivity.</p><br>
-		  <p align="justify"> Doing yoga in a foreign language can be quite challenging if you haven’t yet mastered the local lingo, or if you are new to the practice. Luckily, there are many places throughout Barcelona where you can practice your asanas without making an assana of yourself, where all of the instructions are given out in English.</p>
-     </div>
-	 <div id="third_blok">
-	      <p><h1>Yoga Photos</h1></p><br>
-		  <img src="https://media.lpgenerator.ru/images/430868/ikonki-100h100-26.png"/>
+  <nav class="navbar navbar-light bg-faded">
+  <a class="navbar-brand" href="#">Homework</a>
+  
+  <div class="col-sm-2 hidden-sm hidden-xs">
+  </div>
+  
+ <button class="navbar-toggler hidden-md" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    &#9776;
+  </button>
+ 
+    	  
+  <ul class="nav navbar-nav hidden-sm">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Tasks</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Check in</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Done</a>
+    </li>
+  </ul>
+  
+ <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Password </a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+</nav>
 
-		 <br>
-		 <p><h1>Календар</h1></p><br>
-<table>
-  <tr>
-  <td>Пн</td>
-  <td>25</td>
-  <td>4</td>
-  <td>11</td>
-  <td>18</td>
-  <td>25</td>
-  <td>1</td>
-  </tr>
-  <tr>
-  <td>Вт</td>
-  <td>26</td>
-  <td>5</td>
-  <td>12</td>
-  <td>19</td>
-  <td>26</td>
-  <td>2</td>
-  </tr>
-  <tr>
-  <td>Ср</td>
-  <td>27</td>
-  <td>6</td>
-  <td>13</td>
-  <td>20</td>
-  <td>27</td>
-  <td>3</td>
-  </tr>
-  <tr>
-  <td>Чт</td>
-  <td>28</td>
-  <td>7</td>
-  <td>14</td>
-  <td>21</td>
-  <td>28</td>
-  <td>4</td>
-  </tr>
-  <tr>
-  <td>Пт</td>
-  <td>1</td>
-  <td>8</td>
-  <td>15</td>
-  <td>22</td>
-  <td>29</td>
-  <td>5</td>
-  </tr>
-  <tr>
-  <td>Сб</td>
-  <td>2</td>
-  <td>9</td>
-  <td>16</td>
-  <td>23</td>
-  <td>30</td>
-  <td>6</td>
-  </tr>
-  <tr>
-  <td>Вс</td>
-  <td>3</td>
-  <td>10</td>
-  <td>11</td>
-  <td>24</td>
-  <td>31</td>
-  <td>7</td>
-  </tr>
-  </table>
-     </div>
-	 <div id="fourth_blok">
-	      <p>It is a nice practice not only of your body but also your mind. Make it stonger, brighter and more resistable to stress. Start and you will see changes in all aspects of your life.</p>
-		  <p>task left</p>
-     </div>
-	 
+<div class="container">
+  <h3>  Navbar</h3>
+	<p> IT'S never too late to learn </p>
 </div>
+
+
 </body>
 </html>
